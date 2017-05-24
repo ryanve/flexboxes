@@ -107,6 +107,9 @@
 
 .basis-100vw { flex-basis: 100vw }
 .basis-100vh { flex-basis: 100vh }
+.basis-100vmax { flex-basis: 100vmax }
+.basis-100vmin { flex-basis: 100vmin }
+
 .basis-golden { flex-basis: 61.803398875% }
 .basis-content { flex-basis: content }
 .basis-auto { flex-basis: auto }

@@ -137,6 +137,8 @@ npm install flexboxes
 - `.basis-12` 12/12 grid
 - `.basis-100vw`
 - `.basis-100vh`
+- `.basis-100vmax`
+- `.basis-100vmin`
 - `.basis-golden`
 - `.basis-content`
 - `.basis-auto`
