@@ -1,0 +1,37 @@
+{
+  "name": "flexboxes",
+  "version": "0.0.0",
+  "description": "CSS flexbox utility library and grid system",
+  "author": "Ryan Van Etten",
+  "license": "ISC",
+  "main": "main.css",
+  "scripts": {
+    "build": "postcss module.css --use autoprefixer --no-map -o main.css"
+  },
+  "homepage": "https://github.com/ryanve/flexboxes",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryanve/flexboxes.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ryanve/flexboxes/issues"
+  },
+  "keywords": [
+    "css",
+    "flex",
+    "flexbox",
+    "flex-wrap",
+    "flex-grow",
+    "flex-shrink",
+    "flex-basis",
+    "flex-direction",
+    "functional-css",
+    "grid-system",
+    "grids",
+    "grid"
+  ],
+  "devDependencies": {
+    "autoprefixer": "^7.1.1",
+    "postcss-cli": "^4.0.0"
+  }
+}
