@@ -42,7 +42,7 @@
 .content-around { -ms-flex-line-pack: distribute; align-content: space-around }
 .content-stretch { -ms-flex-line-pack: stretch; align-content: stretch }
 
-.flex-min { min-height: 0; min-width: 0 /* goo.gl/3IZRMt */ }
+.flex-min { min-height: 0; min-width: 0 }
 .flex-max { max-height: 100%; max-width: 100% }
 
 .flex-golden { -webkit-box-flex: 0; -ms-flex: 0 1 61.803398875%; flex: 0 1 61.803398875% }
