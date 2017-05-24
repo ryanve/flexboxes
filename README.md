@@ -1,5 +1,5 @@
 # flexboxes
-<b>flexboxes</b> is a modern flexbox utility library and pure flexbox grid system. It offers a hybrid between other frameworks and is designed for prototyping and production.
+<b>flexboxes</b> is a functional flexbox utility library and pure flexbox grid system. It offers a hybrid between other frameworks. It is designed for both prototyping and production.
 
 ## setup
 
