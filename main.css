@@ -110,3 +110,15 @@
 .basis-golden { -ms-flex-preferred-size: 61.803398875%; flex-basis: 61.803398875% }
 .basis-content { -ms-flex-preferred-size: content; flex-basis: content }
 .basis-auto { -ms-flex-preferred-size: auto; flex-basis: auto }
+
+@media (orientation: portrait) {
+  .portrait-flex { display: -webkit-box; display: -ms-flexbox; display: flex }
+  .portrait-flex-item { display: flex-item }
+  .portrait-inline-flex { display: -webkit-inline-box; display: -ms-inline-flexbox; display: inline-flex }
+}
+
+@media (orientation: landscape) {
+  .landscape-flex { display: -webkit-box; display: -ms-flexbox; display: flex }
+  .landscape-flex-item { display: flex-item }
+  .landscape-inline-flex { display: -webkit-inline-box; display: -ms-inline-flexbox; display: inline-flex }
+}
