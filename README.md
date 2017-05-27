@@ -29,9 +29,11 @@ npm install flexboxes
 - `.flex-nowrap`
 - `.flex-wrap-reverse`
 
-### `margin`
-- `.margin-start`
-- `.margin-end`
+### distribute free space
+- `.free-top`
+- `.free-left`
+- `.free-right`
+- `.free-bottom`
 
 ### `.order`
 - `.order-before`
