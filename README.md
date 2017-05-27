@@ -157,7 +157,7 @@ npm install flexboxes
 
 ```
 npm install
-npm run build
+npm start
 ```
 
 ## inspirations

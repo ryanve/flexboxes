@@ -6,7 +6,9 @@
   "license": "ISC",
   "main": "main.css",
   "scripts": {
-    "build": "postcss module.css --use autoprefixer --no-map -o main.css"
+    "prestart": "npm update",
+    "start": "npm run css",
+    "css": "postcss module.css --use autoprefixer --no-map -o main.css"
   },
   "homepage": "https://github.com/ryanve/flexboxes",
   "repository": {
