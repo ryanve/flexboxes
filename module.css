@@ -11,8 +11,10 @@
 .flex-nowrap { flex-wrap: nowrap }
 .flex-wrap-reverse { flex-wrap: wrap-reverse }
 
-.margin-start { margin-top: auto; margin-left: auto }
-.margin-end { margin-right: auto; margin-bottom: auto }
+.free-top { margin-top: auto }
+.free-left { margin-left: auto }
+.free-right { margin-right: auto }
+.free-bottom { margin-bottom: auto }
 
 .order-before { order: -1 }
 .order-after { order: 1 }
