@@ -156,7 +156,6 @@ npm install flexboxes
 ## development
 
 ```
-npm install
 npm start
 ```
 
