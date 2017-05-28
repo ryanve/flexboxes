@@ -146,12 +146,24 @@ npm install flexboxes
 - `.basis-auto`
 
 ### `@media`
+
+#### portrait
+
 - `.portrait-flex`
 - `.portrait-flex-item`
 - `.portrait-inline-flex`
+- `.portrait-flex-wrap`
+- `.portrait-flex-nowrap`
+- `.portrait-flex-wrap-reverse`
+
+#### landscape
+
 - `.landscape-flex`
 - `.landscape-flex-item`
 - `.landscape-inline-flex`
+- `.landscape-flex-wrap`
+- `.landscape-flex-nowrap`
+- `.landscape-flex-wrap-reverse`
 
 ## development
 
