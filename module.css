@@ -120,10 +120,16 @@
   .portrait-flex { display: flex }
   .portrait-flex-item { display: flex-item }
   .portrait-inline-flex { display: inline-flex }
+  .portrait-flex-wrap { flex-wrap: wrap }
+  .portrait-flex-nowrap { flex-wrap: nowrap }
+  .portrait-flex-wrap-reverse { flex-wrap: wrap-reverse }
 }
 
 @media (orientation: landscape) {
   .landscape-flex { display: flex }
   .landscape-flex-item { display: flex-item }
   .landscape-inline-flex { display: inline-flex }
+  .landscape-flex-wrap { flex-wrap: wrap }
+  .landscape-flex-nowrap { flex-wrap: nowrap }
+  .landscape-flex-wrap-reverse { flex-wrap: wrap-reverse }
 }
