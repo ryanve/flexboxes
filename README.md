@@ -15,7 +15,6 @@ npm install flexboxes
 
 ### `display`
 - `.flex`
-- `.flex-item`
 - `.inline-flex`
 
 ### `flex-direction`
@@ -150,7 +149,6 @@ npm install flexboxes
 #### portrait
 
 - `.portrait-flex`
-- `.portrait-flex-item`
 - `.portrait-inline-flex`
 - `.portrait-flex-wrap`
 - `.portrait-flex-nowrap`
@@ -159,7 +157,6 @@ npm install flexboxes
 #### landscape
 
 - `.landscape-flex`
-- `.landscape-flex-item`
 - `.landscape-inline-flex`
 - `.landscape-flex-wrap`
 - `.landscape-flex-nowrap`
