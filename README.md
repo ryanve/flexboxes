@@ -13,53 +13,53 @@ npm install flexboxes
 
 ## classes
 
-### `display`
+### [`display`](https://www.w3.org/TR/css-flexbox-1/#flex-containers)
 - `.flex`
 - `.inline-flex`
 
-### `flex-direction`
+### [`flex-direction`](https://www.w3.org/TR/css-flexbox-1/#flex-direction-property)
 - `.flex-row`
 - `.flex-row-reverse`
 - `.flex-column`
 - `.flex-column-reverse`
 
-### `flex-wrap`
+### [`flex-wrap`](https://www.w3.org/TR/css-flexbox-1/#flex-wrap-property)
 - `.flex-wrap`
 - `.flex-nowrap`
 - `.flex-wrap-reverse`
 
-### distribute free space
+### [distribute free space](https://www.w3.org/TR/css-flexbox-1/#auto-margins)
 - `.free-top`
 - `.free-left`
 - `.free-right`
 - `.free-bottom`
 
-### `.order`
+### [`order`](https://www.w3.org/TR/css-flexbox-1/#order-property)
 - `.order-before`
 - `.order-after`
 
-### `align-items`
+### [`align-items`](https://www.w3.org/TR/css-flexbox-1/#align-items-property)
 - `.items-start`
 - `.items-end`
 - `.items-center`
 - `.items-baseline`
 - `.items-stretch`
 
-### `align-self`
+### [`align-self`](https://www.w3.org/TR/css-flexbox-1/#align-items-property)
 - `.self-center`
 - `.self-baseline`
 - `.self-stretch`
 - `.self-start`
 - `.self-end`
 
-### `justify-content`
+### [`justify-content`](https://www.w3.org/TR/css-flexbox-1/#justify-content-property)
 - `.justify-start`
 - `.justify-end`
 - `.justify-center`
 - `.justify-between`
 - `.justify-around`
 
-### `align-content`
+### [`align-content`](https://www.w3.org/TR/css-flexbox-1/#align-content-property)
 - `.content-start`
 - `.content-end`
 - `.content-center`
@@ -71,13 +71,13 @@ npm install flexboxes
 - `.flex-min` re: [nesting](https://goo.gl/3IZRMt)
 - `.flex-max`
 
-### `flex` presets
+### [`flex`](https://www.w3.org/TR/css-flexbox-1/#flex-property) presets
 - `.flex-golden`
 - `.flex-initial`
 - `.flex-auto`
 - `.flex-none`
 
-### `flex` shorthand
+### [`flex`](https://www.w3.org/TR/css-flexbox-1/#flex-property) shorthand
 - `.flex-0` 0/12 grid
 - `.flex-1` 1/12 grid
 - `.flex-2` 2/12 grid
@@ -92,7 +92,7 @@ npm install flexboxes
 - `.flex-11` 11/12 grid
 - `.flex-12` 12/12 grid
 
-### `flex-grow`
+### [`flex-grow`](https://www.w3.org/TR/css-flexbox-1/#flex-grow-property)
 - `.grow-0`
 - `.grow-1`
 - `.grow-2`
@@ -107,7 +107,7 @@ npm install flexboxes
 - `.grow-11`
 - `.grow-12`
 
-### `flex-shrink`
+### [`flex-shrink`](https://www.w3.org/TR/css-flexbox-1/#flex-shrink-property)
 - `.shrink-0`
 - `.shrink-1`
 - `.shrink-2`
@@ -122,7 +122,7 @@ npm install flexboxes
 - `.shrink-11`
 - `.shrink-12`
 
-### `flex-basis`
+### [`flex-basis`](https://www.w3.org/TR/css-flexbox-1/#flex-basis-property)
 - `.basis-0` 0/12 grid
 - `.basis-1` 1/12 grid
 - `.basis-2` 2/12 grid
