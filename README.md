@@ -77,20 +77,20 @@ npm install flexboxes
 - `.flex-auto`
 - `.flex-none`
 
-### [`flex`](https://www.w3.org/TR/css-flexbox-1/#flex-property) shorthand
-- `.flex-0` 0/12 grid
-- `.flex-1` 1/12 grid
-- `.flex-2` 2/12 grid
-- `.flex-3` 3/12 grid
-- `.flex-4` 4/12 grid
-- `.flex-5` 5/12 grid
-- `.flex-6` 6/12 grid
-- `.flex-7` 7/12 grid
-- `.flex-8` 8/12 grid
-- `.flex-9` 9/12 grid
-- `.flex-10` 10/12 grid
-- `.flex-11` 11/12 grid
-- `.flex-12` 12/12 grid
+### [`flex`](https://www.w3.org/TR/css-flexbox-1/#flex-common) shorthand
+- `.flex-0`
+- `.flex-1`
+- `.flex-2`
+- `.flex-3`
+- `.flex-4`
+- `.flex-5`
+- `.flex-6`
+- `.flex-7`
+- `.flex-8`
+- `.flex-9`
+- `.flex-10`
+- `.flex-11`
+- `.flex-12`
 
 ### [`flex-grow`](https://www.w3.org/TR/css-flexbox-1/#flex-grow-property)
 - `.grow-0`
