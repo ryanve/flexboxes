@@ -121,6 +121,12 @@
   .portrait-flex-wrap { flex-wrap: wrap }
   .portrait-flex-nowrap { flex-wrap: nowrap }
   .portrait-flex-wrap-reverse { flex-wrap: wrap-reverse }
+
+  .flex\@portrait { display: flex }
+  .inline-flex\@portrait { display: inline-flex }
+  .flex-wrap\@portrait { flex-wrap: wrap }
+  .flex-nowrap\@portrait { flex-wrap: nowrap }
+  .flex-wrap-reverse\@portrait { flex-wrap: wrap-reverse }
 }
 
 @media (orientation: landscape) {
@@ -129,4 +135,10 @@
   .landscape-flex-wrap { flex-wrap: wrap }
   .landscape-flex-nowrap { flex-wrap: nowrap }
   .landscape-flex-wrap-reverse { flex-wrap: wrap-reverse }
+
+  .flex\@landscape { display: flex }
+  .inline-flex\@landscape { display: inline-flex }
+  .flex-wrap\@landscape { flex-wrap: wrap }
+  .flex-nowrap\@landscape { flex-wrap: nowrap }
+  .flex-wrap-reverse\@landscape { flex-wrap: wrap-reverse }
 }
