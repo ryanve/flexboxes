@@ -162,6 +162,32 @@ npm install flexboxes
 - `.landscape-flex-nowrap`
 - `.landscape-flex-wrap-reverse`
 
+## examples
+
+## Examples
+
+### [balanced grid](https://codepen.io/ryanve/pen/mmgjXE)
+
+```html
+<div class="flex">
+  <div class="flex-auto">item</div>
+  <div class="flex-auto">item</div>
+  <div class="flex-auto">item</div>
+</div>
+```
+
+### [wrapping grid](https://codepen.io/ryanve/pen/JNzPMw)
+
+```html
+<div class="flex flex-wrap">
+  <div class="basis-4">grid item</div>
+  <div class="basis-4">grid item</div>
+  <div class="basis-4">grid item</div>
+  <div class="basis-4">grid item</div>
+  <div class="basis-4">grid item</div>
+</div>
+```
+
 ## development
 
 ```
