@@ -164,8 +164,6 @@ npm install flexboxes
 
 ## examples
 
-## Examples
-
 ### [balanced grid](https://codepen.io/ryanve/pen/mmgjXE)
 
 ```html
