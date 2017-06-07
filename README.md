@@ -146,21 +146,23 @@ npm install flexboxes
 
 ### `@media`
 
-#### portrait
+These are breakpoint classes for responsive design.
 
-- `.portrait-flex`
-- `.portrait-inline-flex`
-- `.portrait-flex-wrap`
-- `.portrait-flex-nowrap`
-- `.portrait-flex-wrap-reverse`
+#### `portrait` orientation only
 
-#### landscape
+- `flex@portrait`
+- `inline-flex@portrait`
+- `flex-wrap@portrait`
+- `flex-nowrap@portrait`
+- `flex-wrap-reverse@portrait`
 
-- `.landscape-flex`
-- `.landscape-inline-flex`
-- `.landscape-flex-wrap`
-- `.landscape-flex-nowrap`
-- `.landscape-flex-wrap-reverse`
+#### `landscape` orientation only
+
+- `flex@landscape`
+- `inline-flex@landscape`
+- `flex-wrap@landscape`
+- `flex-nowrap@landscape`
+- `flex-wrap-reverse@landscape`
 
 ## examples
 
@@ -183,6 +185,17 @@ npm install flexboxes
   <div class="basis-4">grid item</div>
   <div class="basis-4">grid item</div>
   <div class="basis-4">grid item</div>
+</div>
+```
+
+### [responsive wrapping](https://codepen.io/ryanve/pen/YVbLjQ)
+
+```html
+<div class="flex flex-wrap@portrait">
+  <div class="flex-auto basis-6">1</div>
+  <div class="flex-auto basis-6">2</div>
+  <div class="flex-auto basis-6">3</div>
+  <div class="flex-auto basis-6">4</div>
 </div>
 ```
 
