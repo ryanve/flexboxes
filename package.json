@@ -6,7 +6,6 @@
   "license": "ISC",
   "main": "main.css",
   "scripts": {
-    "prestart": "npm update",
     "start": "npm run css",
     "css": "postcss module.css --use autoprefixer --no-map -o main.css"
   },

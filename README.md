@@ -202,6 +202,7 @@ These are breakpoint classes for responsive design.
 ## development
 
 ```
+npm install
 npm start
 ```
 
