@@ -33,7 +33,7 @@
     "grid"
   ],
   "devDependencies": {
-    "autoprefixer": "^7.1.1",
-    "postcss-cli": "^4.1.0"
+    "autoprefixer": "^9.7.6",
+    "postcss-cli": "^7.1.1"
   }
 }
