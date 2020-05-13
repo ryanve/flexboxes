@@ -3,7 +3,7 @@
   "version": "0.7.0",
   "description": "CSS flexbox utility classes and grid system",
   "author": "Ryan Van Etten",
-  "license": "ISC",
+  "license": "0BSD",
   "main": "main.css",
   "scripts": {
     "start": "npm run css",
