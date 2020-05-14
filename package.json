@@ -4,11 +4,8 @@
   "description": "CSS flexbox utility classes and grid system",
   "funding": "https://github.com/sponsors/ryanve",
   "license": "0BSD",
-  "main": "main.css",
-  "scripts": {
-    "start": "npm run css",
-    "css": "postcss module.css --use autoprefixer --no-map -o main.css"
-  },
+  "main": "flexboxes.css",
+  "scripts": {},
   "homepage": "https://github.com/ryanve/flexboxes",
   "repository": {
     "type": "git",
@@ -31,9 +28,5 @@
     "responsive",
     "grids",
     "grid"
-  ],
-  "devDependencies": {
-    "autoprefixer": "^9.7.6",
-    "postcss-cli": "^7.1.1"
-  }
+  ]
 }

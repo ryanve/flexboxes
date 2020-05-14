@@ -4,10 +4,10 @@
 ## setup
 
 - For <b>prototyping</b> or codepen you can get any version from [https://unpkg.com/flexboxes](https://unpkg.com/flexboxes)
-- For <b>production</b> you can [`npm install flexboxes`](https://www.npmjs.com/package/flexboxes) and import into your CSS bundle. 
+- For <b>production</b> you can [`npm install flexboxes`](https://www.npmjs.com/package/flexboxes) and import into your CSS bundle.
 
 ```css
-@import 'node_modules/flexboxes/main';
+@import 'node_modules/flexboxes/flexboxes';
 ```
 
 ## classes
