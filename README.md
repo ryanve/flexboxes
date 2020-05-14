@@ -3,12 +3,15 @@
 
 ## setup
 
-- For <b>prototyping</b> or codepen you can get any version from [https://unpkg.com/flexboxes](https://unpkg.com/flexboxes)
-- For <b>production</b> you can [`npm install flexboxes`](https://www.npmjs.com/package/flexboxes) and import into your CSS bundle.
+Download [flexboxes.css](flexboxes.css) and load [stylesheet](https://dev.opera.com/articles/css-basics/#external)
 
-```css
-@import 'node_modules/flexboxes/flexboxes';
+```html
+<link rel="stylesheet" href="flexboxes.css">
 ```
+
+- [Codepens](https://codepen.io) can link [unpkg](https://unpkg.com/flexboxes)
+- Dependers can [npm install flexboxes](https://www.npmjs.com/package/flexboxes) and `@import` via `node_modules`
+- Browse [releases](../../releases) or the [latest release](../../releases/latest)
 
 ## classes
 
