@@ -16,8 +16,8 @@ Download [flexboxes.css](flexboxes.css) and load [stylesheet](https://dev.opera.
 ## classes
 
 ### [`display`](https://www.w3.org/TR/css-flexbox-1/#flex-containers)
-- `.flex`
-- `.inline-flex`
+- `.block-flex` for `flex`
+- `.inline-flex` for `inline-flex`
 
 ### [`flex-direction`](https://www.w3.org/TR/css-flexbox-1/#flex-direction-property)
 - `.flex-row`
