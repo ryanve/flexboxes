@@ -116,7 +116,7 @@
 .basis-auto { flex-basis: auto }
 
 @media (orientation: portrait) {
-  .flex\@portrait { display: flex }
+  .block-flex\@portrait { display: flex }
   .inline-flex\@portrait { display: inline-flex }
   .flex-wrap\@portrait { flex-wrap: wrap }
   .flex-nowrap\@portrait { flex-wrap: nowrap }
@@ -124,7 +124,7 @@
 }
 
 @media (orientation: landscape) {
-  .flex\@landscape { display: flex }
+  .block-flex\@landscape { display: flex }
   .inline-flex\@landscape { display: inline-flex }
   .flex-wrap\@landscape { flex-wrap: wrap }
   .flex-nowrap\@landscape { flex-wrap: nowrap }

@@ -1,1 +1,9 @@
 .flex { display: flex }
+
+@media (orientation: portrait) {
+  .flex\@portrait { display: flex }
+}
+
+@media (orientation: landscape) {
+  .flex\@landscape { display: flex }
+}

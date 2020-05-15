@@ -152,7 +152,7 @@ These are breakpoint classes for responsive design.
 
 #### `portrait` orientation only
 
-- `flex@portrait`
+- `block-flex@portrait`
 - `inline-flex@portrait`
 - `flex-wrap@portrait`
 - `flex-nowrap@portrait`
@@ -160,7 +160,7 @@ These are breakpoint classes for responsive design.
 
 #### `landscape` orientation only
 
-- `flex@landscape`
+- `block-flex@landscape`
 - `inline-flex@landscape`
 - `flex-wrap@landscape`
 - `flex-nowrap@landscape`
