@@ -201,13 +201,6 @@ These are breakpoint classes for responsive design.
 </div>
 ```
 
-## development
-
-```
-npm install
-npm start
-```
-
 ## inspirations
 
 - [basscss-flexbox](https://www.npmjs.com/package/basscss-flexbox)
