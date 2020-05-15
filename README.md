@@ -80,26 +80,18 @@ Download [flexboxes.css](flexboxes.css) and load [stylesheet](https://dev.opera.
 - `.flex-min` re: [nesting](https://goo.gl/3IZRMt)
 - `.flex-max`
 
-### [`flex`](https://www.w3.org/TR/css-flexbox-1/#flex-property) presets
-- `.flex-golden`
-- `.flex-initial`
-- `.flex-auto`
-- `.flex-none`
+### [`flex`](https://www.w3.org/TR/css-flexbox-1/#flex-property)
 
-### [`flex`](https://www.w3.org/TR/css-flexbox-1/#flex-common) shorthand
-- `.flex-0`
-- `.flex-1`
-- `.flex-2`
-- `.flex-3`
-- `.flex-4`
-- `.flex-5`
-- `.flex-6`
-- `.flex-7`
-- `.flex-8`
-- `.flex-9`
-- `.flex-10`
-- `.flex-11`
-- `.flex-12`
+<a name="flex-presets"></a>
+<a name="flex-shorthand"></a>
+
+Shorthand classes supply [common presets](https://www.w3.org/TR/css-flexbox-1/#flex-common)
+
+- `.flex-initial` for `0 1 auto` aka shrinkable
+- `.flex-auto` for `1 1 auto` aka flexible
+- `.flex-none` for `none` aka inflexible
+
+Compose with [`grow`](#flex-grow) [`shrink`](#flex-shrink) [`basis`](#flex-basis)
 
 ### [`flex-grow`](https://www.w3.org/TR/css-flexbox-1/#flex-grow-property)
 - `.grow-0`
