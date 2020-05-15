@@ -76,10 +76,6 @@ Download [flexboxes.css](flexboxes.css) and load [stylesheet](https://dev.opera.
 - `.content-around`
 - `.content-stretch`
 
-### size control
-- `.flex-min` re: [nesting](https://goo.gl/3IZRMt)
-- `.flex-max`
-
 ### [`flex`](https://www.w3.org/TR/css-flexbox-1/#flex-property)
 
 <a name="flex-presets"></a>
@@ -144,6 +140,16 @@ Compose with [`grow`](#flex-grow) [`shrink`](#flex-shrink) [`basis`](#flex-basis
 - `.basis-golden`
 - `.basis-content`
 - `.basis-auto`
+
+### area
+<a name="size-control"></a>
+
+Some [flexbugs](https://github.com/philipwalton/flexbugs) are solvable via min or max width or height
+
+- `.area-min` sets both mins to `0` [re: nesting](https://goo.gl/3IZRMt)
+- `.area-max` sets both maxes to `100%`
+
+Consider [area.css](https://github.com/ryanve/area.css) for more
 
 ### `@media`
 
