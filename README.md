@@ -188,7 +188,7 @@ These are breakpoint classes for responsive design.
 ### [wrapping grid](https://codepen.io/ryanve/pen/JNzPMw)
 
 ```html
-<div class="flex flex-wrap">
+<div class="block-flex  flex-wrap">
   <div class="basis-4">grid item</div>
   <div class="basis-4">grid item</div>
   <div class="basis-4">grid item</div>
@@ -200,7 +200,7 @@ These are breakpoint classes for responsive design.
 ### [responsive wrapping](https://codepen.io/ryanve/pen/YVbLjQ)
 
 ```html
-<div class="flex flow-wrap@portrait">
+<div class="block-flex flow-wrap@portrait">
   <div class="flex-auto basis-6">1</div>
   <div class="flex-auto basis-6">2</div>
   <div class="flex-auto basis-6">3</div>
