@@ -19,16 +19,23 @@ Download [flexboxes.css](flexboxes.css) and load [stylesheet](https://dev.opera.
 - `.block-flex` for `flex`
 - `.inline-flex` for `inline-flex`
 
+### [`flex-flow`](https://www.w3.org/TR/css-flexbox-1/#flex-flow-property)
+
+- Compose [`flex-direction`](#flex-direction) [`flex-wrap`](#flex-wrap)
+- Default is `row nowrap`
+
 ### [`flex-direction`](https://www.w3.org/TR/css-flexbox-1/#flex-direction-property)
-- `.flex-row`
-- `.flex-row-reverse`
-- `.flex-column`
-- `.flex-column-reverse`
+
+- `.flow-east` for `row`
+- `.flow-west` for `row-reverse`
+- `.flow-south` for `column`
+- `.flow-north` for `column-reverse`
 
 ### [`flex-wrap`](https://www.w3.org/TR/css-flexbox-1/#flex-wrap-property)
-- `.flex-wrap`
-- `.flex-nowrap`
-- `.flex-wrap-reverse`
+
+- `.flow-over` for `nowrap`
+- `.flow-wrap` for `wrap`
+- `.flow-warp` for `wrap-reverse`
 
 ### [distribute free space](https://www.w3.org/TR/css-flexbox-1/#auto-margins)
 - `.free-top`
@@ -154,17 +161,17 @@ These are breakpoint classes for responsive design.
 
 - `block-flex@portrait`
 - `inline-flex@portrait`
-- `flex-wrap@portrait`
-- `flex-nowrap@portrait`
-- `flex-wrap-reverse@portrait`
+- `flow-over@portrait`
+- `flow-wrap@portrait`
+- `flex-warp@portrait`
 
 #### `landscape` orientation only
 
 - `block-flex@landscape`
 - `inline-flex@landscape`
-- `flex-wrap@landscape`
-- `flex-nowrap@landscape`
-- `flex-wrap-reverse@landscape`
+- `flow-over@landscape`
+- `flow-wrap@landscape`
+- `flex-warp@landscape`
 
 ## examples
 
@@ -193,7 +200,7 @@ These are breakpoint classes for responsive design.
 ### [responsive wrapping](https://codepen.io/ryanve/pen/YVbLjQ)
 
 ```html
-<div class="flex flex-wrap@portrait">
+<div class="flex flow-wrap@portrait">
   <div class="flex-auto basis-6">1</div>
   <div class="flex-auto basis-6">2</div>
   <div class="flex-auto basis-6">3</div>
