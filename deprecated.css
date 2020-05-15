@@ -1,9 +1,22 @@
 .flex { display: flex }
+.flex-row { flex-direction: row }
+.flex-row-reverse { flex-direction: row-reverse }
+.flex-column { flex-direction: column }
+.flex-column-reverse { flex-direction: column-reverse }
+.flex-wrap { flex-wrap: wrap }
+.flex-nowrap { flex-wrap: nowrap }
+.flex-wrap-reverse { flex-wrap: wrap-reverse }
 
 @media (orientation: portrait) {
   .flex\@portrait { display: flex }
+  .flex-wrap\@portrait { flex-wrap: wrap }
+  .flex-nowrap\@portrait { flex-wrap: nowrap }
+  .flex-wrap-reverse\@portrait { flex-wrap: wrap-reverse }
 }
 
 @media (orientation: landscape) {
   .flex\@landscape { display: flex }
+  .flex-wrap\@landscape { flex-wrap: wrap }
+  .flex-nowrap\@landscape { flex-wrap: nowrap }
+  .flex-wrap-reverse\@landscape { flex-wrap: wrap-reverse }
 }

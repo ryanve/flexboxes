@@ -1,14 +1,13 @@
 .block-flex { display: flex }
 .inline-flex { display: inline-flex }
 
-.flex-row { flex-direction: row }
-.flex-row-reverse { flex-direction: row-reverse }
-.flex-column { flex-direction: column }
-.flex-column-reverse { flex-direction: column-reverse }
-
-.flex-wrap { flex-wrap: wrap }
-.flex-nowrap { flex-wrap: nowrap }
-.flex-wrap-reverse { flex-wrap: wrap-reverse }
+.flow-east { flex-direction: row }
+.flow-west { flex-direction: row-reverse }
+.flow-south { flex-direction: column }
+.flow-north { flex-direction: column-reverse }
+.flow-over { flex-wrap: nowrap }
+.flow-wrap { flex-wrap: wrap }
+.flow-warp { flex-wrap: wrap-reverse }
 
 .free-top { margin-top: auto }
 .free-left { margin-left: auto }
@@ -118,15 +117,15 @@
 @media (orientation: portrait) {
   .block-flex\@portrait { display: flex }
   .inline-flex\@portrait { display: inline-flex }
-  .flex-wrap\@portrait { flex-wrap: wrap }
-  .flex-nowrap\@portrait { flex-wrap: nowrap }
-  .flex-wrap-reverse\@portrait { flex-wrap: wrap-reverse }
+  .flow-over\@portrait { flex-wrap: nowrap }
+  .flow-wrap\@portrait { flex-wrap: wrap }
+  .flex-warp\@portrait { flex-wrap: wrap-reverse }
 }
 
 @media (orientation: landscape) {
   .block-flex\@landscape { display: flex }
   .inline-flex\@landscape { display: inline-flex }
-  .flex-wrap\@landscape { flex-wrap: wrap }
-  .flex-nowrap\@landscape { flex-wrap: nowrap }
-  .flex-wrap-reverse\@landscape { flex-wrap: wrap-reverse }
+  .flow-over\@landscape { flex-wrap: nowrap }
+  .flow-wrap\@landscape { flex-wrap: wrap }
+  .flex-warp\@landscape { flex-wrap: wrap-reverse }
 }
