@@ -163,7 +163,7 @@ These are breakpoint classes for responsive design.
 - `inline-flex@portrait`
 - `flow-over@portrait`
 - `flow-wrap@portrait`
-- `flex-warp@portrait`
+- `flow-warp@portrait`
 
 #### `landscape` orientation only
 
@@ -171,7 +171,7 @@ These are breakpoint classes for responsive design.
 - `inline-flex@landscape`
 - `flow-over@landscape`
 - `flow-wrap@landscape`
-- `flex-warp@landscape`
+- `flow-warp@landscape`
 
 ## examples
 
