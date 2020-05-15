@@ -6,7 +6,7 @@
   "license": "0BSD",
   "main": "flexboxes.css",
   "scripts": {},
-  "homepage": "https://github.com/ryanve/flexboxes",
+  "homepage": "https://ryanve.github.io/flexboxes",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ryanve/flexboxes.git"
