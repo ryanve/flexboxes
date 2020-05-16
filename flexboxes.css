@@ -35,12 +35,12 @@
 .just-between { justify-content: space-between }
 .just-around { justify-content: space-around }
 
-.content-start { align-content: flex-start }
-.content-end { align-content: flex-end }
-.content-center { align-content: center }
-.content-between { align-content: space-between }
-.content-around { align-content: space-around }
-.content-stretch { align-content: stretch }
+.pack-start { align-content: flex-start }
+.pack-end { align-content: flex-end }
+.pack-center { align-content: center }
+.pack-between { align-content: space-between }
+.pack-around { align-content: space-around }
+.pack-stretch { align-content: stretch }
 
 .area-min { min-height: 0; min-width: 0 }
 .area-max { max-height: 100%; max-width: 100% }
