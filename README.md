@@ -37,7 +37,10 @@ Download [flexboxes.css](flexboxes.css) and load [stylesheet](https://dev.opera.
 - `.flow-wrap` for `wrap`
 - `.flow-warp` for `wrap-reverse`
 
-### [distribute free space](https://www.w3.org/TR/css-flexbox-1/#auto-margins)
+### [`margin`](https://www.w3.org/TR/css-flexbox-1/#auto-margins)
+
+<a name="distribute-free-space" href="https://ryanve.github.io/flexboxes#freeing">Distribute free space</a> via `auto` margins
+
 - `.free-top`
 - `.free-left`
 - `.free-right`
