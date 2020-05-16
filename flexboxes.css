@@ -115,3 +115,6 @@
   .flow-wrap\@landscape { flex-wrap: wrap }
   .flow-warp\@landscape { flex-wrap: wrap-reverse }
 }
+
+/* git.io/honorhidden */
+[hidden] { display: none }
