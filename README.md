@@ -9,9 +9,10 @@ Download [flexboxes.css](flexboxes.css) and load [stylesheet](https://dev.opera.
 <link rel="stylesheet" href="flexboxes.css">
 ```
 
+- Browse [releases](../../releases) or the [latest release](../../releases/latest)
 - [Codepens](https://codepen.io) can link [unpkg](https://unpkg.com/flexboxes)
 - Dependers can [npm install flexboxes](https://www.npmjs.com/package/flexboxes) and `@import` via `node_modules`
-- Browse [releases](../../releases) or the [latest release](../../releases/latest)
+- Deprecated classes are in [deprecated.css](deprecated.css)
 
 ## classes
 
