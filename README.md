@@ -1,5 +1,5 @@
 # flexboxes
-<b>flexboxes</b> is a functional flexbox library and pure flexbox grid system designed for prototyping and production.
+[flexboxes](https://ryanve.github.io/flexboxes) is a functional flexbox library and pure flexbox grid system designed for prototyping and production.
 
 ## setup
 
@@ -173,44 +173,4 @@ These are breakpoint classes for responsive design.
 
 ## examples
 
-### [balanced grid](https://codepen.io/ryanve/pen/mmgjXE)
-
-```html
-<div class="flex">
-  <div class="flex-auto">item</div>
-  <div class="flex-auto">item</div>
-  <div class="flex-auto">item</div>
-</div>
-```
-
-### [wrapping grid](https://codepen.io/ryanve/pen/JNzPMw)
-
-```html
-<div class="block-flex flow-wrap">
-  <div class="basis-4">grid item</div>
-  <div class="basis-4">grid item</div>
-  <div class="basis-4">grid item</div>
-  <div class="basis-4">grid item</div>
-  <div class="basis-4">grid item</div>
-</div>
-```
-
-### [responsive wrapping](https://codepen.io/ryanve/pen/YVbLjQ)
-
-```html
-<div class="block-flex flow-wrap@portrait">
-  <div class="flex-auto basis-6">1</div>
-  <div class="flex-auto basis-6">2</div>
-  <div class="flex-auto basis-6">3</div>
-  <div class="flex-auto basis-6">4</div>
-</div>
-```
-
-## inspirations
-
-- [basscss-flexbox](https://www.npmjs.com/package/basscss-flexbox)
-- [flexboxgrid](https://www.npmjs.com/package/flexboxgrid)
-
-* * *
-
-flexpress yo' self
+[ryanve.github.io/flexboxes](https://ryanve.github.io/flexboxes)

@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+  <title>growing</title>
+  <rect fill="gold" width="100%" height="100%" />
+  <rect fill="violet" x="20%" width="30%" height="100%" />
+</svg>

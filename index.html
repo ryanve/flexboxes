@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en-US" id="top">
+<meta charset="utf-8">
+<title>flexboxes. CSS flexbox classes for modern web design.</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#bae4ea">
+<meta name="description" content="Learn patterns from flexbox examples.">
+<link rel="stylesheet" href="flexboxes.css">
+<link rel="icon" href="icon.svg">
+<link rel="canonical" href="https://ryanve.github.io/flexboxes">
+<link rel="help" href="https://github.com/ryanve/flexboxes/blob/master/README.md">
+
+<style>
+  [href] { text-decoration-color: darkviolet; color: indigo }
+  :focus { text-decoration-color: orchid; outline-color: blueviolet }
+  :hover { text-decoration-color: indigo }
+  ::selection { background: indigo; color: seashell }
+  html {
+    font: 20px/1.5 sans-serif;
+    background: seashell;
+    color: #030303;
+  }
+  body {
+    margin: 0 auto;
+    padding: 1em;
+    max-width: 60em;
+  }
+
+  h1 { font-size: 3rem }
+  nav, header, figure, footer {
+    display: block;
+    margin: 0 0 2rem;
+  }
+  ul { list-style: none; padding: 0 }
+  li { display: table; background: lavender; margin: 0 0 .5rem }
+  figcaption {
+    display: block;
+    font-weight: 700;
+    margin: 0 0 1rem;
+    max-width: 30em;
+  }
+  demo-item {
+    display: block;
+    box-sizing: border-box;
+  }
+  demo-item:nth-child(odd) { background: violet }
+  demo-item:nth-child(even) { background: gold }
+  demo-case {
+    box-sizing: border-box;
+    display: block;
+    font-size: 1.5rem;
+    font-family: monospace;
+    min-height: 8rem;
+    background: mistyrose;
+  }
+  .pump { max-width: 20em; font-size: 1.6rem; line-height: 1.2 }
+  .break { overflow-wrap: break-word }
+</style>
+
+<header>
+  <h1 class="break"><a href="https://ryanve.github.io/flexboxes">flexboxes</a></h1>
+  <p class="pump break">
+    Pure functional flexbox classes for prototyping and production.
+    Craft composable performant <a rel="license" href="LICENSE.txt">opensource</a> CSS.
+    Modern web design.
+  <p class="pump break">
+    Compose <a href="#patterns">patterns</a> for infinite possibility.
+    Inspect <a href="#examples">examples</a> to learn how they work.
+    Explore <a href="https://github.com/ryanve/flexboxes/blob/master/README.md" rel="help">README.md</a>
+    and <a href="flexboxes.css">flexboxes.css</a> to learn about the code.
+</header>
+
+<nav id="patterns">
+  <h2 class="pump break"><a href="#patterns">patterns</a></h2>
+  <ul>
+    <li><a href="#shelving">shelving</a>
+    <li><a href="#stacking">stacking</a>
+    <li><a href="#flipping">flipping</a>
+    <li><a href="#flipping">flopping</a>
+    <li><a href="#ordering">ordering</a>
+    <li><a href="#wrapping">wrapping</a>
+    <li><a href="#warping">warping</a>
+    <li><a href="#fitting">fitting</a>
+    <li><a href="#growing">growing</a>
+    <li><a href="#shrinking">shrinking</a>
+    <li><a href="#basing">basing</a>
+    <li><a href="#freeing">freeing</a>
+    <li><a href="#pushing">pushing</a>
+    <li><a href="#cushioning">cushioning</a>
+    <li><a href="#tweening">tweening</a>
+    <li><a href="#racking">racking</a>
+    <li><a href="#roofing">roofing</a>
+    <li><a href="#flooring">flooring</a>
+    <li><a href="#stretching">stretching</a>
+    <li><a href="#belting">belting</a>
+    <li><a href="#vining">vining</a>
+    <li><a href="#centering">centering</a>
+    <li><a href="#winging">winging</a>
+    <li><a href="#shelling">shelling</a>
+    <li><a href="#squiding">squiding</a>
+  </ul>
+</nav>
+
+<h2 id="examples" class="pump break"><a href="#examples">examples</a></h2>
+
+<figure id="shelving">
+  <figcaption><a href="#shelving">shelving</a></figcaption>
+  <demo-case class="block-flex">
+    <demo-item class="flex-auto">1</demo-item>
+    <demo-item class="flex-auto">2</demo-item>
+    <demo-item class="flex-auto">3</demo-item>
+  </demo-case>
+</figure>
+
+<figure id="stacking">
+  <figcaption><a href="#stacking">stacking</a></figcaption>
+  <demo-case class="block-flex flow-south">
+    <demo-item class="flex-auto">1</demo-item>
+    <demo-item class="flex-auto">2</demo-item>
+    <demo-item class="flex-auto">3</demo-item>
+  </demo-case>
+</figure>
+
+<figure id="flipping">
+  <figcaption><a href="#flipping">flipping</a></figcaption>
+  <demo-case class="block-flex flow-west">
+    <demo-item class="flex-auto">1</demo-item>
+    <demo-item class="flex-auto">2</demo-item>
+    <demo-item class="flex-auto">3</demo-item>
+  </demo-case>
+</figure>
+
+<figure id="flopping">
+  <figcaption><a href="#flopping">flopping</a></figcaption>
+  <demo-case class="block-flex flow-north">
+    <demo-item class="flex-auto">1</demo-item>
+    <demo-item class="flex-auto">2</demo-item>
+    <demo-item class="flex-auto">3</demo-item>
+  </demo-case>
+</figure>
+
+<figure id="ordering">
+  <figcaption><a href="#ordering">ordering</a></figcaption>
+  <demo-case class="block-flex flow-south">
+    <demo-item class="flex-auto order-before">1</demo-item>
+    <demo-item class="flex-auto order-after">2</demo-item>
+    <demo-item class="flex-auto order-before">3</demo-item>
+  </demo-case>
+</figure>
+
+<figure id="wrapping">
+  <figcaption><a href="#wrapping">wrapping</a></figcaption>
+  <demo-case class="block-flex flow-wrap">
+    <demo-item class="basis-4">1</demo-item>
+    <demo-item class="basis-4">2</demo-item>
+    <demo-item class="basis-4">3</demo-item>
+    <demo-item class="basis-4">4</demo-item>
+    <demo-item class="basis-4">5</demo-item>
+    <demo-item class="basis-4">6</demo-item>
+    <demo-item class="basis-4">7</demo-item>
+    <demo-item class="basis-4">8</demo-item>
+  </demo-case>
+</figure>
+
+<figure id="warping">
+  <figcaption><a href="#warping">warping</a></figcaption>
+  <demo-case class="block-flex flow-warp">
+    <demo-item class="basis-4">1</demo-item>
+    <demo-item class="basis-4">2</demo-item>
+    <demo-item class="basis-4">3</demo-item>
+    <demo-item class="basis-4">4</demo-item>
+    <demo-item class="basis-4">5</demo-item>
+    <demo-item class="basis-4">6</demo-item>
+    <demo-item class="basis-4">7</demo-item>
+    <demo-item class="basis-4">8</demo-item>
+  </demo-case>
+</figure>
+
+<figure id="fitting">
+  <figcaption><a href="#fitting">fitting</a></figcaption>
+  <demo-case class="block-flex flow-wrap@portrait">
+    <demo-item class="basis-6">1</demo-item>
+    <demo-item class="basis-6">2</demo-item>
+    <demo-item class="basis-6">3</demo-item>
+    <demo-item class="basis-6">4</demo-item>
+    <demo-item class="basis-6">5</demo-item>
+    <demo-item class="basis-6">6</demo-item>
+    <demo-item class="basis-6">7</demo-item>
+    <demo-item class="basis-6">8</demo-item>
+  </demo-case>
+</figure>
+
+<figure id="growing">
+  <figcaption><a href="#growing">growing</a></figcaption>
+  <demo-case class="block-flex">
+    <demo-item class="grow-1">1</demo-item>
+    <demo-item class="grow-2">2</demo-item>
+    <demo-item class="grow-3">3</demo-item>
+  </demo-case>
+</figure>
+
+<figure id="shrinking">
+  <figcaption><a href="#shrinking">shrinking</a></figcaption>
+  <demo-case class="block-flex">
+    <demo-item class="shrink-1">1</demo-item>
+    <demo-item class="shrink-2">2</demo-item>
+    <demo-item class="shrink-3">3</demo-item>
+  </demo-case>
+</figure>
+
+<figure id="basing">
+  <figcaption><a href="#basing">basing</a></figcaption>
+  <demo-case class="block-flex">
+    <demo-item class="basis-2">1</demo-item>
+    <demo-item class="basis-2">2</demo-item>
+    <demo-item class="basis-2">3</demo-item>
+  </demo-case>
+</figure>
+
+<figure id="freeing">
+  <figcaption><a href="#freeing">freeing</a></figcaption>
+  <demo-case class="block-flex">
+    <demo-item class="basis-2">1</demo-item>
+    <demo-item class="basis-2">2</demo-item>
+    <demo-item class="basis-2 free-left">3</demo-item>
+  </demo-case>
+</figure>
+
+<figure id="pushing">
+  <figcaption><a href="#pushing">pushing</a></figcaption>
+  <demo-case class="block-flex justify-end">
+    <demo-item class="basis-2">1</demo-item>
+    <demo-item class="basis-2">2</demo-item>
+    <demo-item class="basis-2">3</demo-item>
+  </demo-case>
+</figure>
+
+<figure id="cushioning">
+  <figcaption><a href="#cushioning">cushioning</a></figcaption>
+  <demo-case class="block-flex justify-around">
+    <demo-item class="basis-2">1</demo-item>
+    <demo-item class="basis-2">2</demo-item>
+    <demo-item class="basis-2">3</demo-item>
+  </demo-case>
+</figure>
+
+<figure id="tweening">
+  <figcaption><a href="#tweening">tweening</a></figcaption>
+  <demo-case class="block-flex justify-between">
+    <demo-item class="basis-2">1</demo-item>
+    <demo-item class="basis-2">2</demo-item>
+    <demo-item class="basis-2">3</demo-item>
+  </demo-case>
+</figure>
+
+<figure id="racking">
+  <figcaption><a href="#racking">racking</a></figcaption>
+  <demo-case class="block-flex justify-between flow-south">
+    <demo-item class="basis-2">1</demo-item>
+    <demo-item class="basis-2">2</demo-item>
+    <demo-item class="basis-2">3</demo-item>
+  </demo-case>
+</figure>
+
+<figure id="roofing">
+  <figcaption><a href="#roofing">roofing</a></figcaption>
+  <demo-case class="block-flex flow-wrap items-start">
+    <demo-item class="flex-auto">1</demo-item>
+    <demo-item class="flex-auto">2</demo-item>
+    <demo-item class="flex-auto">3</demo-item>
+  </demo-case>
+</figure>
+
+<figure id="flooring">
+  <figcaption><a href="#flooring">flooring</a></figcaption>
+  <demo-case class="block-flex flow-wrap items-end">
+    <demo-item class="flex-auto">1</demo-item>
+    <demo-item class="flex-auto">2</demo-item>
+    <demo-item class="flex-auto">3</demo-item>
+  </demo-case>
+</figure>
+
+<figure id="stretching">
+  <figcaption><a href="#stretching">stretching</a></figcaption>
+  <demo-case class="block-flex flow-wrap items-stretch">
+    <demo-item class="flex-auto">1</demo-item>
+    <demo-item class="flex-auto">2</demo-item>
+    <demo-item class="flex-auto">3</demo-item>
+  </demo-case>
+</figure>
+
+<figure id="belting">
+  <figcaption><a href="#belting">belting</a></figcaption>
+  <demo-case class="block-flex flow-wrap items-center">
+    <demo-item class="flex-auto">1</demo-item>
+    <demo-item class="flex-auto">2</demo-item>
+    <demo-item class="flex-auto">3</demo-item>
+  </demo-case>
+</figure>
+
+<figure id="vining">
+  <figcaption><a href="#vining">vining</a></figcaption>
+  <demo-case class="block-flex flow-east justify-center">
+    <demo-item class="block-flex flow-south">
+      <demo-item class="flex-auto">1</demo-item>
+      <demo-item class="flex-auto">22</demo-item>
+      <demo-item class="flex-auto">333</demo-item>
+    </demo-item>
+  </demo-case>
+</figure>
+
+<figure id="centering">
+  <figcaption><a href="#centering">centering</a></figcaption>
+  <demo-case class="block-flex justify-center items-center">
+    <demo-item class="basis-4">1</demo-item>
+  </demo-case>
+</figure>
+
+<figure id="winging">
+  <figcaption><a href="#winging">winging</a></figcaption>
+  <demo-case class="block-flex justify-center items-center">
+    <demo-item class="basis-2">1</demo-item>
+    <demo-item class="basis-4">2</demo-item>
+    <demo-item class="basis-2">3</demo-item>
+  </demo-case>
+</figure>
+
+<figure id="shelling">
+  <figcaption><a href="#shelling">shelling</a></figcaption>
+  <demo-case class="block-flex flow-wrap">
+    <demo-item class="basis-1">1</demo-item>
+    <demo-item class="basis-2">2</demo-item>
+    <demo-item class="basis-3">3</demo-item>
+    <demo-item class="basis-5">5</demo-item>
+    <demo-item class="basis-8">8</demo-item>
+  </demo-case>
+</figure>
+
+<figure id="squiding">
+  <figcaption><a href="#squiding">squiding</a></figcaption>
+  <demo-case class="block-flex flow-wrap flow-west">
+    <demo-item class="flex-auto basis-4">0</demo-item>
+    <demo-item class="flex-auto basis-8 block-flex flow-south">
+      <demo-item class="flex-auto">1</demo-item>
+      <demo-item class="flex-auto">2</demo-item>
+      <demo-item class="flex-auto">3</demo-item>
+      <demo-item class="flex-auto">4</demo-item>
+      <demo-item class="flex-auto">5</demo-item>
+    </demo-item>
+  </demo-case>
+</figure>
+
+<footer>
+  <p class="pump break">
+  Created on <a href="https://github.com/ryanve/flexboxes">Github</a><br>
+  <a href="https://www.npmjs.com/package/flexboxes">npm.im/flexboxes</a>
+  <p class="pump break">
+    Book a CSS flexbox workshop using <a href="#top">flexboxes</a>
+    with creator <a href="https://github.com/ryanve">@ryanve</a>
+</footer>
