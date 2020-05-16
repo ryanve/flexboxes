@@ -1,7 +1,7 @@
 {
   "name": "flexboxes",
   "version": "0.8.0",
-  "description": "CSS flexbox utility classes and grid system",
+  "description": "CSS functional flexbox framework",
   "funding": "https://github.com/sponsors/ryanve",
   "license": "0BSD",
   "main": "flexboxes.css",
@@ -18,15 +18,21 @@
     "css",
     "flex",
     "flexbox",
-    "flex-wrap",
-    "flex-grow",
-    "flex-shrink",
-    "flex-basis",
-    "flex-direction",
+    "align",
+    "alignment",
     "functional-css",
-    "grid-system",
+    "flow",
+    "grow",
+    "shrink",
+    "basis",
+    "layout",
     "responsive",
     "grids",
-    "grid"
+    "grid",
+    "grid-system",
+    "stylesheet",
+    "web",
+    "design",
+    "direction"
   ]
 }
