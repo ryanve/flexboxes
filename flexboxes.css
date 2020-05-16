@@ -29,11 +29,11 @@
 .self-start { align-self: flex-start }
 .self-end { align-self: flex-end }
 
-.justify-start { justify-content: flex-start }
-.justify-end { justify-content: flex-end }
-.justify-center { justify-content: center }
-.justify-between { justify-content: space-between }
-.justify-around { justify-content: space-around }
+.just-start { justify-content: flex-start }
+.just-end { justify-content: flex-end }
+.just-center { justify-content: center }
+.just-between { justify-content: space-between }
+.just-around { justify-content: space-around }
 
 .content-start { align-content: flex-start }
 .content-end { align-content: flex-end }
