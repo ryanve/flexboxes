@@ -65,11 +65,11 @@ Download [flexboxes.css](flexboxes.css) and load [stylesheet](https://dev.opera.
 - `.self-end`
 
 ### [`justify-content`](https://www.w3.org/TR/css-flexbox-1/#justify-content-property)
-- `.justify-start`
-- `.justify-end`
-- `.justify-center`
-- `.justify-between`
-- `.justify-around`
+- `.just-start`
+- `.just-end`
+- `.just-center`
+- `.just-between`
+- `.just-around`
 
 ### [`align-content`](https://www.w3.org/TR/css-flexbox-1/#align-content-property)
 - `.content-start`
