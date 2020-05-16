@@ -29,6 +29,13 @@
 .justify-between { justify-content: space-between }
 .justify-around { justify-content: space-around }
 
+.content-start { align-content: flex-start }
+.content-end { align-content: flex-end }
+.content-center { align-content: center }
+.content-between { align-content: space-between }
+.content-around { align-content: space-around }
+.content-stretch { align-content: stretch }
+
 @media (orientation: portrait) {
   .flex\@portrait { display: flex }
   .flex-wrap\@portrait { flex-wrap: wrap }

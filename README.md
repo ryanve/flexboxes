@@ -72,12 +72,12 @@ Download [flexboxes.css](flexboxes.css) and load [stylesheet](https://dev.opera.
 - `.just-around`
 
 ### [`align-content`](https://www.w3.org/TR/css-flexbox-1/#align-content-property)
-- `.content-start`
-- `.content-end`
-- `.content-center`
-- `.content-between`
-- `.content-around`
-- `.content-stretch`
+- `.pack-start`
+- `.pack-end`
+- `.pack-center`
+- `.pack-between`
+- `.pack-around`
+- `.pack-stretch`
 
 ### [`flex`](https://www.w3.org/TR/css-flexbox-1/#flex-property)
 
