@@ -5,7 +5,9 @@
   "funding": "https://github.com/sponsors/ryanve",
   "license": "0BSD",
   "main": "flexboxes.css",
-  "scripts": {},
+  "scripts": {
+    "test": "npm doctor"
+  },
   "homepage": "https://ryanve.github.io/flexboxes",
   "repository": {
     "type": "git",
