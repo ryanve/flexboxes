@@ -97,8 +97,8 @@
 .basis-100vmin { flex-basis: 100vmin }
 
 .basis-golden { flex-basis: 61.803398875% }
-.basis-content { flex-basis: content }
 .basis-auto { flex-basis: auto }
+.basis-content { flex-basis: content }
 
 @media (orientation: portrait) {
   .block-flex\@portrait { display: flex }
