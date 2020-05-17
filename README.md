@@ -43,9 +43,9 @@ Download [flexboxes.css](flexboxes.css) and load [stylesheet](https://dev.opera.
 <a name="distribute-free-space" href="https://ryanve.github.io/flexboxes#freeing">Distribute free space</a> via `auto` margins
 
 - `.free-top` frees top
+- `.free-bottom` frees bottom
 - `.free-left` frees left
 - `.free-right` frees right
-- `.free-bottom` frees bottom
 - `.free-north` frees block-start
 - `.free-south` frees block-end
 - `.free-west` frees inline-start
