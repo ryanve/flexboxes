@@ -13,6 +13,10 @@
 .free-left { margin-left: auto }
 .free-right { margin-right: auto }
 .free-bottom { margin-bottom: auto }
+.free-east { margin-inline-end: auto }
+.free-west { margin-inline-start: auto }
+.free-south { margin-block-end: auto }
+.free-north { margin-block-start: auto }
 
 .order-before { order: -1 }
 .order-after { order: 1 }
