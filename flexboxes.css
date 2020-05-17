@@ -9,6 +9,7 @@
 .flow-wrap { flex-wrap: wrap }
 .flow-warp { flex-wrap: wrap-reverse }
 
+.free-all { margin: auto }
 .free-top { margin-top: auto }
 .free-bottom { margin-bottom: auto }
 .free-left { margin-left: auto }
