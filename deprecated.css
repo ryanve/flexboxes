@@ -10,6 +10,7 @@
 .flex-min { min-height: 0; min-width: 0 }
 .flex-max { max-height: 100%; max-width: 100% }
 .flex-golden { flex: 0 1 61.803398875% }
+.flex-initial { flex: 0 1 auto }
 .flex-1 { flex: 1 }
 .flex-2 { flex: 2 }
 .flex-3 { flex: 3 }
