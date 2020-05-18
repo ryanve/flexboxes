@@ -129,5 +129,5 @@ npm.im/flexboxes
   .flow-warp\@landscape { flex-wrap: wrap-reverse }
 }
 
-/*git.io/honorhidden*/
-[hidden]{display:none}
+/* git.io/honorhidden */
+[hidden] { display: none }
