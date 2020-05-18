@@ -93,6 +93,7 @@ Download [flexboxes.css](flexboxes.css) and load [stylesheet](https://dev.opera.
 Shorthand classes supply [common presets](https://www.w3.org/TR/css-flexbox-1/#flex-common)
 
 - `.flex-fade` for `0 1 auto` aka shrinkable
+- `.flex-fame` for `1 0 auto` aka growable
 - `.flex-auto` for `1 1 auto` aka flexible
 - `.flex-none` for `none` aka inflexible
 

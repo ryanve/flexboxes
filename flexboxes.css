@@ -3,6 +3,7 @@ git.io/flexboxes
 npm.im/flexboxes
 **/
 .flex-fade {flex: 0 1 auto}
+.flex-fame {flex: 1 0 auto}
 .flex-auto {flex: 1 1 auto}
 .flex-none {flex: 0 0 auto}
 .block-flex {display: flex}
