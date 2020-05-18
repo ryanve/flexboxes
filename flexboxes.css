@@ -1,7 +1,7 @@
-/*
+/**
 git.io/flexboxes
 npm.im/flexboxes
-*/
+**/
 .flex-fade { flex: 0 1 auto }
 .flex-auto { flex: 1 1 auto }
 .flex-none { flex: 0 0 auto }
@@ -129,5 +129,5 @@ npm.im/flexboxes
   .flow-warp\@landscape { flex-wrap: wrap-reverse }
 }
 
-/* git.io/honorhidden */
-[hidden] { display: none }
+/*git.io/honorhidden*/
+[hidden]{display:none}
