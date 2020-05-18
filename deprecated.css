@@ -1,52 +1,52 @@
-.flex { display: flex }
-.flex-row { flex-direction: row }
-.flex-row-reverse { flex-direction: row-reverse }
-.flex-column { flex-direction: column }
-.flex-column-reverse { flex-direction: column-reverse }
-.flex-wrap { flex-wrap: wrap }
-.flex-nowrap { flex-wrap: nowrap }
-.flex-wrap-reverse { flex-wrap: wrap-reverse }
+.flex {display: flex}
+.flex-row {flex-direction: row}
+.flex-row-reverse {flex-direction: row-reverse}
+.flex-column {flex-direction: column}
+.flex-column-reverse {flex-direction: column-reverse}
+.flex-wrap {flex-wrap: wrap}
+.flex-nowrap {flex-wrap: nowrap}
+.flex-wrap-reverse {flex-wrap: wrap-reverse}
 
-.flex-min { min-height: 0; min-width: 0 }
-.flex-max { max-height: 100%; max-width: 100% }
-.flex-golden { flex: 0 1 61.803398875% }
-.flex-initial { flex: 0 1 auto }
-.flex-1 { flex: 1 }
-.flex-2 { flex: 2 }
-.flex-3 { flex: 3 }
-.flex-4 { flex: 4 }
-.flex-5 { flex: 5 }
-.flex-6 { flex: 6 }
-.flex-7 { flex: 7 }
-.flex-8 { flex: 8 }
-.flex-9 { flex: 9 }
-.flex-10 { flex: 10 }
-.flex-11 { flex: 11 }
-.flex-12 { flex: 12 }
+.flex-min {min-height: 0; min-width: 0}
+.flex-max {max-height: 100%; max-width: 100%}
+.flex-golden {flex: 0 1 61.803398875%}
+.flex-initial {flex: 0 1 auto}
+.flex-1 {flex: 1}
+.flex-2 {flex: 2}
+.flex-3 {flex: 3}
+.flex-4 {flex: 4}
+.flex-5 {flex: 5}
+.flex-6 {flex: 6}
+.flex-7 {flex: 7}
+.flex-8 {flex: 8}
+.flex-9 {flex: 9}
+.flex-10 {flex: 10}
+.flex-11 {flex: 11}
+.flex-12 {flex: 12}
 
-.justify-start { justify-content: flex-start }
-.justify-end { justify-content: flex-end }
-.justify-center { justify-content: center }
-.justify-between { justify-content: space-between }
-.justify-around { justify-content: space-around }
+.justify-start {justify-content: flex-start}
+.justify-end {justify-content: flex-end}
+.justify-center {justify-content: center}
+.justify-between {justify-content: space-between}
+.justify-around {justify-content: space-around}
 
-.content-start { align-content: flex-start }
-.content-end { align-content: flex-end }
-.content-center { align-content: center }
-.content-between { align-content: space-between }
-.content-around { align-content: space-around }
-.content-stretch { align-content: stretch }
+.content-start {align-content: flex-start}
+.content-end {align-content: flex-end}
+.content-center {align-content: center}
+.content-between {align-content: space-between}
+.content-around {align-content: space-around}
+.content-stretch {align-content: stretch}
 
 @media (orientation: portrait) {
-  .flex\@portrait { display: flex }
-  .flex-wrap\@portrait { flex-wrap: wrap }
-  .flex-nowrap\@portrait { flex-wrap: nowrap }
-  .flex-wrap-reverse\@portrait { flex-wrap: wrap-reverse }
+  .flex\@portrait {display: flex}
+  .flex-wrap\@portrait {flex-wrap: wrap}
+  .flex-nowrap\@portrait {flex-wrap: nowrap}
+  .flex-wrap-reverse\@portrait {flex-wrap: wrap-reverse}
 }
 
 @media (orientation: landscape) {
-  .flex\@landscape { display: flex }
-  .flex-wrap\@landscape { flex-wrap: wrap }
-  .flex-nowrap\@landscape { flex-wrap: nowrap }
-  .flex-wrap-reverse\@landscape { flex-wrap: wrap-reverse }
+  .flex\@landscape {display: flex}
+  .flex-wrap\@landscape {flex-wrap: wrap}
+  .flex-nowrap\@landscape {flex-wrap: nowrap}
+  .flex-wrap-reverse\@landscape {flex-wrap: wrap-reverse}
 }
