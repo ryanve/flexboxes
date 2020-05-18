@@ -162,20 +162,32 @@ Consider [area.css](https://github.com/ryanve/area.css) for more
 
 ### `@media`
 
-These are breakpoint classes for responsive design.
+Responsive [`orientation`](https://drafts.csswg.org/mediaqueries-4/#orientation) classes are available for [`flex-flow`](#flex-flow) and [`display`](#display) classes. Append [`@portrait`](#portrait) or [`@landscape`](#landscape) to these classes to limit them to that orientation. This affords layouts that flow or wrap differently based on viewport orientation or layouts that only flex in one orientation. Try the [#fitting](https://ryanve.github.io/flexboxes/#fitting) example in both portrait and landscape to see how it adapts. You can do this on a phone by rotating the phone or on a computer by resizing the browser window.
 
-#### `portrait` orientation only
+```html
+class="block-flex flow-west@portrait flow-north@landscape"
+```
+
+#### `portrait`
 
 - `block-flex@portrait`
 - `inline-flex@portrait`
+- `flow-east@portrait`
+- `flow-west@portrait`
+- `flow-south@portrait`
+- `flow-north@portrait`
 - `flow-over@portrait`
 - `flow-wrap@portrait`
 - `flow-warp@portrait`
 
-#### `landscape` orientation only
+#### `landscape`
 
 - `block-flex@landscape`
 - `inline-flex@landscape`
+- `flow-east@landscape`
+- `flow-west@landscape`
+- `flow-south@landscape`
+- `flow-north@landscape`
 - `flow-over@landscape`
 - `flow-wrap@landscape`
 - `flow-warp@landscape`

@@ -108,6 +108,10 @@
 @media (orientation: portrait) {
   .block-flex\@portrait { display: flex }
   .inline-flex\@portrait { display: inline-flex }
+  .flow-east\@portrait { flex-direction: row }
+  .flow-west\@portrait { flex-direction: row-reverse }
+  .flow-south\@portrait { flex-direction: column }
+  .flow-north\@portrait { flex-direction: column-reverse }
   .flow-over\@portrait { flex-wrap: nowrap }
   .flow-wrap\@portrait { flex-wrap: wrap }
   .flow-warp\@portrait { flex-wrap: wrap-reverse }
@@ -116,6 +120,10 @@
 @media (orientation: landscape) {
   .block-flex\@landscape { display: flex }
   .inline-flex\@landscape { display: inline-flex }
+  .flow-east\@landscape { flex-direction: row }
+  .flow-west\@landscape { flex-direction: row-reverse }
+  .flow-south\@landscape { flex-direction: column }
+  .flow-north\@landscape { flex-direction: column-reverse }
   .flow-over\@landscape { flex-wrap: nowrap }
   .flow-wrap\@landscape { flex-wrap: wrap }
   .flow-warp\@landscape { flex-wrap: wrap-reverse }
