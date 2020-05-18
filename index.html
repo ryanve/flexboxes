@@ -30,8 +30,16 @@
     padding: 1em;
     max-width: 60em;
   }
-
-  h1 { font-size: 3rem }
+  h1 {
+    font-size: 3rem;
+    overflow-wrap: break-word;
+  }
+  h2, p {
+    max-width: 20em;
+    font-size: 1.6rem;
+    line-height: 1.2;
+    overflow-wrap: break-word;
+  }
   nav, header, figure, footer {
     display: block;
     margin: 0 0 2rem;
@@ -59,17 +67,15 @@
     min-height: 8rem;
     background: mistyrose;
   }
-  .pump { max-width: 20em; font-size: 1.6rem; line-height: 1.2 }
-  .break { overflow-wrap: break-word }
 </style>
 
 <header>
-  <h1 class="break"><a href="https://ryanve.github.io/flexboxes">flexboxes</a></h1>
-  <p class="pump break">
+  <h1><a href="https://ryanve.github.io/flexboxes">flexboxes</a></h1>
+  <p>
     Pure functional flexbox classes for prototyping and production.
     Craft composable performant <a rel="license" href="LICENSE.txt">opensource</a> CSS.
     Modern web design.
-  <p class="pump break">
+  <p>
     Compose <a href="#patterns">patterns</a> for infinite possibility.
     Inspect <a href="#examples">examples</a> to learn how they work.
     Explore <a href="https://github.com/ryanve/flexboxes/blob/master/README.md" rel="help">README.md</a>
@@ -77,7 +83,7 @@
 </header>
 
 <nav id="patterns">
-  <h2 class="pump break"><a href="#patterns">patterns</a></h2>
+  <h2><a href="#patterns">patterns</a></h2>
   <ul>
     <li><a href="#shelving">shelving</a>
     <li><a href="#stacking">stacking</a>
@@ -107,7 +113,7 @@
   </ul>
 </nav>
 
-<h2 id="examples" class="pump break"><a href="#examples">examples</a></h2>
+<h2 id="examples"><a href="#examples">examples</a></h2>
 
 <figure id="shelving">
   <figcaption><a href="#shelving">shelving</a></figcaption>
@@ -357,10 +363,10 @@
 </figure>
 
 <footer>
-  <p class="pump break">
+  <p>
   Created on <a href="https://github.com/ryanve/flexboxes">Github</a><br>
   <a href="https://www.npmjs.com/package/flexboxes">npm.im/flexboxes</a>
-  <p class="pump break">
+  <p>
     Book a CSS flexbox workshop using <a href="#top">flexboxes</a>
     with creator <a href="https://github.com/ryanve">@ryanve</a>
 </footer>
