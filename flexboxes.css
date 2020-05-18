@@ -50,7 +50,7 @@
 .area-min { min-height: 0; min-width: 0 }
 .area-max { max-height: 100%; max-width: 100% }
 
-.flex-initial { flex: 0 1 auto }
+.flex-fade { flex: 0 1 auto }
 .flex-auto { flex: 1 1 auto }
 .flex-none { flex: 0 0 auto }
 
