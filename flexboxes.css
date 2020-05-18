@@ -2,132 +2,132 @@
 git.io/flexboxes
 npm.im/flexboxes
 **/
-.flex-fade { flex: 0 1 auto }
-.flex-auto { flex: 1 1 auto }
-.flex-none { flex: 0 0 auto }
-.block-flex { display: flex }
-.inline-flex { display: inline-flex }
-.flow-east { flex-direction: row }
-.flow-west { flex-direction: row-reverse }
-.flow-south { flex-direction: column }
-.flow-north { flex-direction: column-reverse }
-.flow-over { flex-wrap: nowrap }
-.flow-wrap { flex-wrap: wrap }
-.flow-warp { flex-wrap: wrap-reverse }
+.flex-fade {flex: 0 1 auto}
+.flex-auto {flex: 1 1 auto}
+.flex-none {flex: 0 0 auto}
+.block-flex {display: flex}
+.inline-flex {display: inline-flex}
+.flow-east {flex-direction: row}
+.flow-west {flex-direction: row-reverse}
+.flow-south {flex-direction: column}
+.flow-north {flex-direction: column-reverse}
+.flow-over {flex-wrap: nowrap}
+.flow-wrap {flex-wrap: wrap}
+.flow-warp {flex-wrap: wrap-reverse}
 
-.free-all { margin: auto }
-.free-top { margin-top: auto }
-.free-bottom { margin-bottom: auto }
-.free-left { margin-left: auto }
-.free-right { margin-right: auto }
-.free-north { margin-block-start: auto }
-.free-south { margin-block-end: auto }
-.free-west { margin-inline-start: auto }
-.free-east { margin-inline-end: auto }
+.free-all {margin: auto}
+.free-top {margin-top: auto}
+.free-bottom {margin-bottom: auto}
+.free-left {margin-left: auto}
+.free-right {margin-right: auto}
+.free-north {margin-block-start: auto}
+.free-south {margin-block-end: auto}
+.free-west {margin-inline-start: auto}
+.free-east {margin-inline-end: auto}
 
-.order-before { order: -1 }
-.order-after { order: 1 }
+.order-before {order: -1}
+.order-after {order: 1}
 
-.items-start { align-items: flex-start }
-.items-end { align-items: flex-end }
-.items-center { align-items: center }
-.items-baseline { align-items: baseline }
-.items-stretch { align-items: stretch }
+.items-start {align-items: flex-start}
+.items-end {align-items: flex-end}
+.items-center {align-items: center}
+.items-baseline {align-items: baseline}
+.items-stretch {align-items: stretch}
 
-.self-center { align-self: center }
-.self-baseline { align-self: baseline }
-.self-stretch { align-self: stretch }
-.self-start { align-self: flex-start }
-.self-end { align-self: flex-end }
+.self-center {align-self: center}
+.self-baseline {align-self: baseline}
+.self-stretch {align-self: stretch}
+.self-start {align-self: flex-start}
+.self-end {align-self: flex-end}
 
-.just-start { justify-content: flex-start }
-.just-end { justify-content: flex-end }
-.just-center { justify-content: center }
-.just-between { justify-content: space-between }
-.just-around { justify-content: space-around }
+.just-start {justify-content: flex-start}
+.just-end {justify-content: flex-end}
+.just-center {justify-content: center}
+.just-between {justify-content: space-between}
+.just-around {justify-content: space-around}
 
-.pack-start { align-content: flex-start }
-.pack-end { align-content: flex-end }
-.pack-center { align-content: center }
-.pack-between { align-content: space-between }
-.pack-around { align-content: space-around }
-.pack-stretch { align-content: stretch }
+.pack-start {align-content: flex-start}
+.pack-end {align-content: flex-end}
+.pack-center {align-content: center}
+.pack-between {align-content: space-between}
+.pack-around {align-content: space-around}
+.pack-stretch {align-content: stretch}
 
-.area-min { min-height: 0; min-width: 0 }
-.area-max { max-height: 100%; max-width: 100% }
+.area-min {min-height: 0; min-width: 0}
+.area-max {max-height: 100%; max-width: 100%}
 
-.grow-0 { flex-grow: 0 }
-.grow-1 { flex-grow: 1 }
-.grow-2 { flex-grow: 2 }
-.grow-3 { flex-grow: 3 }
-.grow-4 { flex-grow: 4 }
-.grow-5 { flex-grow: 5 }
-.grow-6 { flex-grow: 6 }
-.grow-7 { flex-grow: 7 }
-.grow-8 { flex-grow: 8 }
-.grow-9 { flex-grow: 9 }
-.grow-10 { flex-grow: 10 }
-.grow-11 { flex-grow: 11 }
-.grow-12 { flex-grow: 12 }
+.grow-0 {flex-grow: 0}
+.grow-1 {flex-grow: 1}
+.grow-2 {flex-grow: 2}
+.grow-3 {flex-grow: 3}
+.grow-4 {flex-grow: 4}
+.grow-5 {flex-grow: 5}
+.grow-6 {flex-grow: 6}
+.grow-7 {flex-grow: 7}
+.grow-8 {flex-grow: 8}
+.grow-9 {flex-grow: 9}
+.grow-10 {flex-grow: 10}
+.grow-11 {flex-grow: 11}
+.grow-12 {flex-grow: 12}
 
-.shrink-0 { flex-shrink: 0 }
-.shrink-1 { flex-shrink: 1 }
-.shrink-2 { flex-shrink: 2 }
-.shrink-3 { flex-shrink: 3 }
-.shrink-4 { flex-shrink: 4 }
-.shrink-5 { flex-shrink: 5 }
-.shrink-6 { flex-shrink: 6 }
-.shrink-7 { flex-shrink: 7 }
-.shrink-8 { flex-shrink: 8 }
-.shrink-9 { flex-shrink: 9 }
-.shrink-10 { flex-shrink: 10 }
-.shrink-11 { flex-shrink: 11 }
-.shrink-12 { flex-shrink: 12 }
+.shrink-0 {flex-shrink: 0}
+.shrink-1 {flex-shrink: 1}
+.shrink-2 {flex-shrink: 2}
+.shrink-3 {flex-shrink: 3}
+.shrink-4 {flex-shrink: 4}
+.shrink-5 {flex-shrink: 5}
+.shrink-6 {flex-shrink: 6}
+.shrink-7 {flex-shrink: 7}
+.shrink-8 {flex-shrink: 8}
+.shrink-9 {flex-shrink: 9}
+.shrink-10 {flex-shrink: 10}
+.shrink-11 {flex-shrink: 11}
+.shrink-12 {flex-shrink: 12}
 
-.basis-0 { flex-basis: 0% }
-.basis-1 { flex-basis: 8.333333333% }
-.basis-2 { flex-basis: 16.6666666666% }
-.basis-3 { flex-basis: 25% }
-.basis-4 { flex-basis: 33.3333333333% }
-.basis-5 { flex-basis: 41.6666666666% }
-.basis-6 { flex-basis: 50% }
-.basis-7 { flex-basis: 58.333333333% }
-.basis-8 { flex-basis: 66.6666666666% }
-.basis-9 { flex-basis: 75% }
-.basis-10 { flex-basis: 83.3333333333% }
-.basis-11 { flex-basis: 91.6666666666% }
-.basis-12 { flex-basis: 100% }
-.basis-100vw { flex-basis: 100vw }
-.basis-100vh { flex-basis: 100vh }
-.basis-100vmax { flex-basis: 100vmax }
-.basis-100vmin { flex-basis: 100vmin }
-.basis-golden { flex-basis: 61.803398875% }
-.basis-auto { flex-basis: auto }
-.basis-content { flex-basis: content }
+.basis-0 {flex-basis: 0%}
+.basis-1 {flex-basis: 8.333333333%}
+.basis-2 {flex-basis: 16.6666666666%}
+.basis-3 {flex-basis: 25%}
+.basis-4 {flex-basis: 33.3333333333%}
+.basis-5 {flex-basis: 41.6666666666%}
+.basis-6 {flex-basis: 50%}
+.basis-7 {flex-basis: 58.333333333%}
+.basis-8 {flex-basis: 66.6666666666%}
+.basis-9 {flex-basis: 75%}
+.basis-10 {flex-basis: 83.3333333333%}
+.basis-11 {flex-basis: 91.6666666666%}
+.basis-12 {flex-basis: 100%}
+.basis-100vw {flex-basis: 100vw}
+.basis-100vh {flex-basis: 100vh}
+.basis-100vmax {flex-basis: 100vmax}
+.basis-100vmin {flex-basis: 100vmin}
+.basis-golden {flex-basis: 61.803398875%}
+.basis-auto {flex-basis: auto}
+.basis-content {flex-basis: content}
 
 @media (orientation: portrait) {
-  .block-flex\@portrait { display: flex }
-  .inline-flex\@portrait { display: inline-flex }
-  .flow-east\@portrait { flex-direction: row }
-  .flow-west\@portrait { flex-direction: row-reverse }
-  .flow-south\@portrait { flex-direction: column }
-  .flow-north\@portrait { flex-direction: column-reverse }
-  .flow-over\@portrait { flex-wrap: nowrap }
-  .flow-wrap\@portrait { flex-wrap: wrap }
-  .flow-warp\@portrait { flex-wrap: wrap-reverse }
+  .block-flex\@portrait {display: flex}
+  .inline-flex\@portrait {display: inline-flex}
+  .flow-east\@portrait {flex-direction: row}
+  .flow-west\@portrait {flex-direction: row-reverse}
+  .flow-south\@portrait {flex-direction: column}
+  .flow-north\@portrait {flex-direction: column-reverse}
+  .flow-over\@portrait {flex-wrap: nowrap}
+  .flow-wrap\@portrait {flex-wrap: wrap}
+  .flow-warp\@portrait {flex-wrap: wrap-reverse}
 }
 
 @media (orientation: landscape) {
-  .block-flex\@landscape { display: flex }
-  .inline-flex\@landscape { display: inline-flex }
-  .flow-east\@landscape { flex-direction: row }
-  .flow-west\@landscape { flex-direction: row-reverse }
-  .flow-south\@landscape { flex-direction: column }
-  .flow-north\@landscape { flex-direction: column-reverse }
-  .flow-over\@landscape { flex-wrap: nowrap }
-  .flow-wrap\@landscape { flex-wrap: wrap }
-  .flow-warp\@landscape { flex-wrap: wrap-reverse }
+  .block-flex\@landscape {display: flex}
+  .inline-flex\@landscape {display: inline-flex}
+  .flow-east\@landscape {flex-direction: row}
+  .flow-west\@landscape {flex-direction: row-reverse}
+  .flow-south\@landscape {flex-direction: column}
+  .flow-north\@landscape {flex-direction: column-reverse}
+  .flow-over\@landscape {flex-wrap: nowrap}
+  .flow-wrap\@landscape {flex-wrap: wrap}
+  .flow-warp\@landscape {flex-wrap: wrap-reverse}
 }
 
 /* git.io/honorhidden */
-[hidden] { display: none }
+[hidden] {display: none}
