@@ -17,8 +17,8 @@ Download [flexboxes.css](flexboxes.css) and load [stylesheet](https://dev.opera.
 ## classes
 
 ### [`display`](https://www.w3.org/TR/css-flexbox-1/#flex-containers)
-- `.block-flex` for `flex`
 - `.inline-flex` for `inline-flex`
+- `.block-flex` for `flex`
 
 ### [`flex-flow`](https://www.w3.org/TR/css-flexbox-1/#flex-flow-property)
 
@@ -171,8 +171,6 @@ class="block-flex flow-west@portrait flow-north@landscape"
 
 #### `portrait`
 
-- `block-flex@portrait`
-- `inline-flex@portrait`
 - `flow-east@portrait`
 - `flow-west@portrait`
 - `flow-south@portrait`
@@ -180,11 +178,11 @@ class="block-flex flow-west@portrait flow-north@landscape"
 - `flow-over@portrait`
 - `flow-wrap@portrait`
 - `flow-warp@portrait`
+- `inline-flex@portrait`
+- `block-flex@portrait`
 
 #### `landscape`
 
-- `block-flex@landscape`
-- `inline-flex@landscape`
 - `flow-east@landscape`
 - `flow-west@landscape`
 - `flow-south@landscape`
@@ -192,6 +190,8 @@ class="block-flex flow-west@portrait flow-north@landscape"
 - `flow-over@landscape`
 - `flow-wrap@landscape`
 - `flow-warp@landscape`
+- `inline-flex@landscape`
+- `block-flex@landscape`
 
 ## examples
 
