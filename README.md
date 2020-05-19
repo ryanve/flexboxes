@@ -17,8 +17,8 @@ Download [flexboxes.css](flexboxes.css) and load [stylesheet](https://dev.opera.
 ## classes
 
 ### [`display`](https://www.w3.org/TR/css-flexbox-1/#flex-containers)
-- `.inline-flex` for `inline-flex`
-- `.block-flex` for `flex`
+- `.flex-inline` for `inline-flex`
+- `.flex-block` for `flex`
 
 ### [`flex-flow`](https://www.w3.org/TR/css-flexbox-1/#flex-flow-property)
 
@@ -166,7 +166,7 @@ Consider [area.css](https://github.com/ryanve/area.css) for more
 Responsive [`orientation`](https://drafts.csswg.org/mediaqueries-4/#orientation) classes are available for [`flex-flow`](#flex-flow) and [`display`](#display) classes. Append [`@portrait`](#portrait) or [`@landscape`](#landscape) to these classes to limit them to that orientation. This affords layouts that flow or wrap differently based on viewport orientation or layouts that only flex in one orientation. Try the [#fitting](https://ryanve.github.io/flexboxes/#fitting) example in both portrait and landscape to see how it adapts. You can do this on a phone by rotating the phone or on a computer by resizing the browser window.
 
 ```html
-class="block-flex flow-west@portrait flow-north@landscape"
+class="flex-block flow-west@portrait flow-north@landscape"
 ```
 
 #### `portrait`
@@ -178,8 +178,8 @@ class="block-flex flow-west@portrait flow-north@landscape"
 - `flow-over@portrait`
 - `flow-wrap@portrait`
 - `flow-warp@portrait`
-- `inline-flex@portrait`
-- `block-flex@portrait`
+- `flex-inline@portrait`
+- `flex-block@portrait`
 
 #### `landscape`
 
@@ -190,8 +190,8 @@ class="block-flex flow-west@portrait flow-north@landscape"
 - `flow-over@landscape`
 - `flow-wrap@landscape`
 - `flow-warp@landscape`
-- `inline-flex@landscape`
-- `block-flex@landscape`
+- `flex-inline@landscape`
+- `flex-block@landscape`
 
 ## examples
 
