@@ -14,7 +14,7 @@ Download [flexboxes.css](flexboxes.css) and load [stylesheet](https://dev.opera.
 - Dependers can [npm install flexboxes](https://www.npmjs.com/package/flexboxes) and `@import` via `node_modules`
 - Deprecated classes are in [deprecated.css](deprecated.css)
 
-## classes
+## [classes](flexboxes.css)
 
 ### [`display`](https://www.w3.org/TR/css-flexbox-1/#flex-containers)
 - `.flex-inline` for `inline-flex`
